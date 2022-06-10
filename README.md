@@ -22,8 +22,6 @@ Parameters need to deploy our Network Infrastructure
 
 # 4. Cloud Infrastructure Diagram
 
-Udagram-Cloud-Diagram.png
-
 # 5. Image Result
 
 You can see a screenshot of all resources, outputs and a deployed running website here
@@ -50,7 +48,7 @@ Better, you could run the bash script
 ./update.sh Your-Stack-Name-Here template.yml template-params.json
 
 to delete, you can simply run:
-aws clouformation delete-stack Your-Stack-Name-Here
+aws cloudformation delete-stack Your-Stack-Name-Here
 
 or run
 ./destroy.sh Your-Stack-Name-Here
